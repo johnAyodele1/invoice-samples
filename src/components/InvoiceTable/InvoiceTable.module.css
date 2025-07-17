@@ -1,0 +1,99 @@
+.tableContainer {
+    margin-top: 1.5rem;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.headerRow {
+    background-color: #f9fafb;
+}
+
+.th {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4a5568;
+}
+
+.bodyRow {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.td {
+    padding: 0.5rem;
+}
+
+.input {
+    width: 100%;
+    border: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.w16 {
+    width: 4rem;
+}
+
+.w20 {
+    width: 5rem;
+}
+
+.w24 {
+    width: 6rem;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.deleteButton {
+    color: #a0aec0;
+}
+
+.deleteButton:hover {
+    color: #ef4444;
+}
+
+.actions {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.addRowButton {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    color: #4299e1;
+    font-weight: 600;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+}
+
+.addRowButton:hover {
+    background-color: #ebf8ff;
+}
+
+.actionButton {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    border: 1px solid #d2d6dc;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+}
+
+.actionButton:hover {
+    background-color: #f9fafb;
+}

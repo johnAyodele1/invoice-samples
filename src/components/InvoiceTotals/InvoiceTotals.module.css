@@ -1,0 +1,30 @@
+.totalsContainer {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.totalsWrapper {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .totalsWrapper {
+        width: 33.333333%;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.totalRow {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-top: 2px solid #000000;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
