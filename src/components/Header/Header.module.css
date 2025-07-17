@@ -1,0 +1,94 @@
+.trialBanner {
+    background-color: #2d3748;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.trialLink {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #48bb78;
+}
+
+.appHeader {
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.leftSection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logoText {
+    color: #4299e1;
+    font-weight: 700;
+}
+
+.navigation {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .navigation {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: #4a5568;
+    }
+}
+
+.navLink:hover {
+    color: #4299e1;
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.iconButton {
+    color: #a0aec0;
+}
+
+.iconButton:hover {
+    color: #4299e1;
+}
+
+.userAvatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: #805ad5;
+    color: #ffffff;
+    border-radius: 9999px;
+    font-weight: 700;
+}

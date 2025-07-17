@@ -1,0 +1,49 @@
+.footerContainer {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: #a0aec0;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox {
+    height: 1rem;
+    width: 1rem;
+    color: #4299e1;
+    border-color: #d2d6dc;
+    border-radius: 0.25rem;
+}
+
+.checkbox:focus {
+    box-shadow: 0 0 0 2px #63b3ed;
+}
+
+.checkboxText {
+    margin-left: 0.5rem;
+}
+
+.setupGuide {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.setupButton {
+    background-color: #4299e1;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.setupButton:hover {
+    background-color: #3182ce;
+}
